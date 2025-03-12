@@ -195,6 +195,7 @@ header {
 #dropdown-menu a:hover {
     background: rgba(255, 235, 59, 0.2);
     border-radius: 5px;
+    transform: scale(1.03);
 }
 
 
@@ -282,7 +283,7 @@ header {
 }
 /* Science Theme */
 .science-theme {
-    background: linear-gradient(135deg, #0068c3, #10027d);
+    background: linear-gradient(135deg, #03516d, #59015f);
     color: rgb(224, 224, 224);
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -316,13 +317,13 @@ header {
 
 .science-theme .option-box:hover {
     background: rgba(255, 255, 255, 0.4);
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 
 /* Arts Theme */
 .arts-theme {
-    background: linear-gradient(135deg, #0068c3, #10027d);
+    background: linear-gradient(135deg, #745b01, #4e5f01);
     color: rgb(224, 224, 224);
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -356,14 +357,14 @@ header {
 
 .arts-theme .option-box:hover {
     background: rgba(255, 255, 255, 0.4);
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 
 
 /* commerce Theme */
 .commerce-theme {
-    background: linear-gradient(135deg, #0068c3, #10027d);
+    background: linear-gradient(135deg, #3f0168, #4d014d);
     color: rgb(224, 224, 224);
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -397,13 +398,13 @@ header {
 
 .commerce-theme .option-box:hover {
     background: rgba(255, 255, 255, 0.4);
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 
 /* law Theme */
 .law-theme {
-    background: linear-gradient(135deg, #0068c3, #10027d);
+    background: linear-gradient(135deg, #683401, #460120);
     color: rgb(224, 224, 224);
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -437,7 +438,7 @@ header {
 
 .law-theme .option-box:hover {
     background: rgba(255, 255, 255, 0.4);
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 /* Footer */
 footer {
