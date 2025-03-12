@@ -320,6 +320,125 @@ header {
 }
 
 
+/* Arts Theme */
+.arts-theme {
+    background: linear-gradient(135deg, #0068c3, #10027d);
+    color: rgb(224, 224, 224);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Science Page Heading */
+.arts-theme h1 {
+    font-size: 2.5rem;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Science Options */
+.arts-theme .options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.arts-theme .option-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.arts-theme .option-box:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+
+
+/* commerce Theme */
+.commerce-theme {
+    background: linear-gradient(135deg, #0068c3, #10027d);
+    color: rgb(224, 224, 224);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* commerce Page Heading */
+.commerce-theme h1 {
+    font-size: 2.5rem;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* commerce Options */
+.commerce-theme .options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.commerce-theme .option-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.commerce-theme .option-box:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+
+/* law Theme */
+.law-theme {
+    background: linear-gradient(135deg, #0068c3, #10027d);
+    color: rgb(224, 224, 224);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* law Page Heading */
+.law-theme h1 {
+    font-size: 2.5rem;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* law Options */
+.law-theme .options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.law-theme .option-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.law-theme .option-box:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
 /* Footer */
 footer {
     text-align: center;
