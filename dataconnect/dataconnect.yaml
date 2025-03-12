@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "cuet-info-web"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "cuet-info-web-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

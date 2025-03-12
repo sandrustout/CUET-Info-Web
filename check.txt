@@ -1,0 +1,61 @@
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    background: rgba(0, 0, 0, 0.9);
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.dropdown-menu li a:hover {
+    color: #ff4b5c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

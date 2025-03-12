@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUET Info Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CUET-INFO-WEB</div>
+        <div class="menu-button">&#9776;</div> <!-- 3-line menu icon -->
+        <nav id="dropdown-menu">
+            <a href="index.html">What is CUET ?</a>
+            <a href="arts.html">About Us</a>
+            <a href="commerce.html">About Data</a>
+            <a href="about.html">Privacy Policy</a>
+        </nav>
+    </header>
+    
+
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1 class="title">Welcome to CUET Info Web</h1>
+        <p class="subtitle">Find your dream university easily!</p>
+
+        <div class="stream-selection">
+            <h2>Select Your Stream</h2>
+            <div class="stream-buttons">
+                <button class="stream-btn" onclick="navigate('science')">Science & Technology</button>
+                <button class="stream-btn" onclick="navigate('arts')">Arts & Humanities</button>
+                <button class="stream-btn" onclick="navigate('law')">Law & Governance</button>
+                <button class="stream-btn" onclick="navigate('commerce')">Commerce & Business</button>
+            </div>
+        </div>
+
+        <button class="predict-btn" onclick="predictCollege()">Predict Your College</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © Created by ChatGPT
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

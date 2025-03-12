@@ -1,0 +1,48 @@
+[
+    {
+      "university": "Delhi University",
+      "colleges": [
+        {
+          "name": "Hindu College",
+          "courses": [
+            {
+              "name": "B.Sc Computer Science",
+              "fees": "₹40,000 per year",
+              "placements": "Average 8 LPA"
+            },
+            {
+              "name": "B.A Economics",
+              "fees": "₹35,000 per year",
+              "placements": "Average 7 LPA"
+            }
+          ]
+        },
+        {
+          "name": "St. Stephen's College",
+          "courses": [
+            {
+              "name": "B.Sc Physics",
+              "fees": "₹45,000 per year",
+              "placements": "Average 9 LPA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "university": "Banaras Hindu University",
+      "colleges": [
+        {
+          "name": "Faculty of Science",
+          "courses": [
+            {
+              "name": "B.Sc Mathematics",
+              "fees": "₹30,000 per year",
+              "placements": "Average 6 LPA"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
